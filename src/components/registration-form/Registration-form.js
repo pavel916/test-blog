@@ -119,7 +119,6 @@ const RegistrationForm = ({ userPostFetch }) => {
         type="submit"
         className={disabled ? styles.form__button_disabled : styles.form__button} 
         value="Create" 
-        disabled={disabled} 
       />
       <div className={styles['link-block']}>
         <p>Already have an account?</p><Link to="/sign-in" className={styles.link}>Sign In.</Link>
